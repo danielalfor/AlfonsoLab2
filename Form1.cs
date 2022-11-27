@@ -42,6 +42,7 @@ namespace AlfonsoLab2
 
         private void btnHide_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Button Hide has been cliked", "See you");
             //Hide picture when botton Hide is clicked
             pictureBox1.Visible = false;
             //lblStory.Visible = false;
