@@ -15,6 +15,7 @@ namespace AlfonsoLab2
         public Form1()
         {
             InitializeComponent();
+            MessageBox.Show("This message will only appear in Interface Branch", "Programmed by Daniel");
         }
         /* By Daniel Alfonso, IT Programmer Analyst Student, NBCC
          * Intro to Programming, October 5th, 2022
@@ -41,6 +42,7 @@ namespace AlfonsoLab2
 
         private void btnHide_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Button Hide has been cliked", "See you");
             //Hide picture when botton Hide is clicked
             pictureBox1.Visible = false;
             //lblStory.Visible = false;
