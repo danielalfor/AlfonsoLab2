@@ -60,18 +60,19 @@
             this.groupBox2.Controls.Add(this.btnData);
             this.groupBox2.Controls.Add(this.lblStory);
             this.groupBox2.Controls.Add(this.pictureBox1);
-            this.groupBox2.Location = new System.Drawing.Point(246, 12);
+            this.groupBox2.Location = new System.Drawing.Point(281, 11);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(461, 294);
+            this.groupBox2.Size = new System.Drawing.Size(527, 276);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Information";
             // 
             // btnPicture
             // 
-            this.btnPicture.Location = new System.Drawing.Point(15, 227);
+            this.btnPicture.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPicture.Location = new System.Drawing.Point(17, 213);
             this.btnPicture.Name = "btnPicture";
-            this.btnPicture.Size = new System.Drawing.Size(81, 34);
+            this.btnPicture.Size = new System.Drawing.Size(93, 32);
             this.btnPicture.TabIndex = 0;
             this.btnPicture.Text = "&Picture";
             this.btnPicture.UseVisualStyleBackColor = true;
@@ -80,18 +81,20 @@
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Location = new System.Drawing.Point(146, 12);
+            this.lblTitle.Font = new System.Drawing.Font("Berlin Sans FB", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(167, 11);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(151, 16);
+            this.lblTitle.Size = new System.Drawing.Size(168, 18);
             this.lblTitle.TabIndex = 11;
             this.lblTitle.Text = "Biking around Saint John";
             // 
             // btnExit
             // 
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(357, 227);
+            this.btnExit.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(408, 213);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(81, 34);
+            this.btnExit.Size = new System.Drawing.Size(93, 32);
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -99,9 +102,10 @@
             // 
             // btnHide
             // 
-            this.btnHide.Location = new System.Drawing.Point(247, 227);
+            this.btnHide.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHide.Location = new System.Drawing.Point(282, 213);
             this.btnHide.Name = "btnHide";
-            this.btnHide.Size = new System.Drawing.Size(81, 34);
+            this.btnHide.Size = new System.Drawing.Size(93, 32);
             this.btnHide.TabIndex = 2;
             this.btnHide.Text = "&Hide";
             this.btnHide.UseVisualStyleBackColor = true;
@@ -109,9 +113,10 @@
             // 
             // btnData
             // 
-            this.btnData.Location = new System.Drawing.Point(132, 227);
+            this.btnData.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnData.Location = new System.Drawing.Point(151, 213);
             this.btnData.Name = "btnData";
-            this.btnData.Size = new System.Drawing.Size(81, 34);
+            this.btnData.Size = new System.Drawing.Size(93, 32);
             this.btnData.TabIndex = 1;
             this.btnData.Text = "&Data";
             this.btnData.UseVisualStyleBackColor = true;
@@ -120,9 +125,9 @@
             // lblStory
             // 
             this.lblStory.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblStory.Location = new System.Drawing.Point(29, 31);
+            this.lblStory.Location = new System.Drawing.Point(33, 29);
             this.lblStory.Name = "lblStory";
-            this.lblStory.Size = new System.Drawing.Size(409, 184);
+            this.lblStory.Size = new System.Drawing.Size(467, 173);
             this.lblStory.TabIndex = 1;
             this.lblStory.Visible = false;
             // 
@@ -131,9 +136,9 @@
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(29, 31);
+            this.pictureBox1.Location = new System.Drawing.Point(33, 29);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(409, 184);
+            this.pictureBox1.Size = new System.Drawing.Size(467, 173);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -142,16 +147,18 @@
             // 
             // txtNumber
             // 
-            this.txtNumber.Location = new System.Drawing.Point(89, 53);
+            this.txtNumber.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtNumber.Location = new System.Drawing.Point(102, 50);
             this.txtNumber.Name = "txtNumber";
-            this.txtNumber.Size = new System.Drawing.Size(100, 22);
+            this.txtNumber.Size = new System.Drawing.Size(114, 24);
             this.txtNumber.TabIndex = 0;
             // 
             // txtMultiplier
             // 
-            this.txtMultiplier.Location = new System.Drawing.Point(89, 106);
+            this.txtMultiplier.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.txtMultiplier.Location = new System.Drawing.Point(102, 99);
             this.txtMultiplier.Name = "txtMultiplier";
-            this.txtMultiplier.Size = new System.Drawing.Size(100, 22);
+            this.txtMultiplier.Size = new System.Drawing.Size(114, 24);
             this.txtMultiplier.TabIndex = 1;
             // 
             // groupBox1
@@ -164,9 +171,10 @@
             this.groupBox1.Controls.Add(this.lblNumber);
             this.groupBox1.Controls.Add(this.txtMultiplier);
             this.groupBox1.Controls.Add(this.txtNumber);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Font = new System.Drawing.Font("Bell MT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(14, 11);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(213, 294);
+            this.groupBox1.Size = new System.Drawing.Size(243, 276);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Multiplier";
@@ -174,9 +182,10 @@
             // btnReset
             // 
             this.btnReset.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnReset.Location = new System.Drawing.Point(109, 227);
+            this.btnReset.Font = new System.Drawing.Font("Book Antiqua", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReset.Location = new System.Drawing.Point(125, 213);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(81, 34);
+            this.btnReset.Size = new System.Drawing.Size(93, 32);
             this.btnReset.TabIndex = 3;
             this.btnReset.Text = "&Reset";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -184,9 +193,10 @@
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(21, 227);
+            this.btnCalculate.Font = new System.Drawing.Font("Book Antiqua", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalculate.Location = new System.Drawing.Point(24, 213);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(82, 34);
+            this.btnCalculate.Size = new System.Drawing.Size(94, 32);
             this.btnCalculate.TabIndex = 2;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -195,49 +205,50 @@
             // lblAnswer
             // 
             this.lblAnswer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblAnswer.Location = new System.Drawing.Point(89, 156);
+            this.lblAnswer.Location = new System.Drawing.Point(102, 146);
             this.lblAnswer.Name = "lblAnswer";
-            this.lblAnswer.Size = new System.Drawing.Size(100, 25);
+            this.lblAnswer.Size = new System.Drawing.Size(114, 24);
             this.lblAnswer.TabIndex = 5;
             // 
             // lblAns
             // 
             this.lblAns.AutoSize = true;
-            this.lblAns.Location = new System.Drawing.Point(18, 165);
+            this.lblAns.Location = new System.Drawing.Point(21, 155);
             this.lblAns.Name = "lblAns";
-            this.lblAns.Size = new System.Drawing.Size(54, 16);
+            this.lblAns.Size = new System.Drawing.Size(59, 19);
             this.lblAns.TabIndex = 4;
             this.lblAns.Text = "Answer:";
             // 
             // lblMultiplier
             // 
             this.lblMultiplier.AutoSize = true;
-            this.lblMultiplier.Location = new System.Drawing.Point(18, 109);
+            this.lblMultiplier.Location = new System.Drawing.Point(21, 102);
             this.lblMultiplier.Name = "lblMultiplier";
-            this.lblMultiplier.Size = new System.Drawing.Size(63, 16);
+            this.lblMultiplier.Size = new System.Drawing.Size(75, 19);
             this.lblMultiplier.TabIndex = 3;
             this.lblMultiplier.Text = "Multiplier:";
             // 
             // lblNumber
             // 
             this.lblNumber.AutoSize = true;
-            this.lblNumber.Location = new System.Drawing.Point(18, 53);
+            this.lblNumber.Location = new System.Drawing.Point(21, 50);
             this.lblNumber.Name = "lblNumber";
-            this.lblNumber.Size = new System.Drawing.Size(56, 16);
+            this.lblNumber.Size = new System.Drawing.Size(63, 19);
             this.lblNumber.TabIndex = 2;
             this.lblNumber.Text = "Number:";
             // 
             // Form1
             // 
             this.AcceptButton = this.btnPicture;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CancelButton = this.btnReset;
-            this.ClientSize = new System.Drawing.Size(719, 331);
+            this.ClientSize = new System.Drawing.Size(822, 310);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lab2 by Daniel";
